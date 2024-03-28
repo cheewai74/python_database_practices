@@ -1,2 +1,5 @@
-"D:\git\python_database_practices\.venv\*.*""
-"D:\git\python_database_practices\.vscode\*.*""
+"D:\git\python_database_practices\.venv\Include\*.*"
+"D:\git\python_database_practices\.venv\Lib\*.*"
+"D:\git\python_database_practices\.venv\Scripts\*.*"
+"D:\git\python_database_practices\.venv\pyvenv.cfg"
+"D:\git\python_database_practices\.vscode\*.*"
