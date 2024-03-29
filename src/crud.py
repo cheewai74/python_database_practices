@@ -1,14 +1,8 @@
-#!/usr/bin/env python3
-# Copyright 2021 BHG [bw.org]
-# as of 2021-04-07 bw
-
 from BWDB import BWDB, BWErr
 
-
-MY_HOST = 'pluto.local'
-MY_USER = 'appuser'
-MY_PASS = 'Spartacus'
-
+MY_HOST = '127.0.0.1'
+MY_USER = 'root'
+MY_PASS = 'password'
 
 def main():
     try:
