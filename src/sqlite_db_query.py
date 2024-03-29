@@ -4,6 +4,7 @@ def main():
     connection = sqlite3.connect("scratch.db")
 
     cur = connection.cursor()
+    cur.execute("DROP TABLE IF EXISTS temp")
     cur.execute("CREATE TABLE IF NOT EXISTS temp ( a TEXT, b TEXT, c TEXT )")
     cur.execute("INSERT INTO temp VALUES('one','two','three')")
     cur.execute("INSERT INTO temp VALUES('four','five','six')")
